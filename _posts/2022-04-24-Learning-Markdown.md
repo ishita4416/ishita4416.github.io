@@ -53,3 +53,40 @@ Strikethrough using tilde ~~two tildes~~
 [inline-style link](https://www.google.com)
 [inline-style link with title](https://www.google.com "Google's Homepage")
 
+## Images
+
+Hover to see the title text
+
+Inline-style:
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
+Reference-style:
+
+![alt text][logo]
+
+[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+
+
+## Code and Syntax Highlighting
+
+Inline `code` has `back-ticks` around it
+
+Block code has 3 back-ticks around it
+
+```python
+s = "Python Syntax Highlighting"
+print s
+```
+# Footnotes
+
+A simple footnote[^1]
+A footnote can also have multiple lines[^2]
+words can also be used instead of numbers[^note]
+
+[^1]: Reference used
+[^2]: Every new line should be prefixed with 2 spaces
+  this allows for a footnote to have multiple lines
+[^note]: Named footnotes begin with numbers too instead of text but allow easier identification and linking
+
+
+
