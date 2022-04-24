@@ -77,16 +77,55 @@ Block code has 3 back-ticks around it
 s = "Python Syntax Highlighting"
 print s
 ```
-# Footnotes
+## Footnotes
 
 A simple footnote[^1]
 A footnote can also have multiple lines[^2]
 words can also be used instead of numbers[^note]
 
-[^1]: Reference used
-[^2]: Every new line should be prefixed with 2 spaces
-  this allows for a footnote to have multiple lines
+[^1]: Reference used  
+[^2]: Every new line should be prefixed with 2 spaces  
+  this allows for a footnote to have multiple lines  
 [^note]: Named footnotes begin with numbers too instead of text but allow easier identification and linking
 
+## Tables
 
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 | 
 
+Markdown | Less | Pretty  
+--- | --- | ---  
+*Still* | `renders` | **nicely**
+1 | 2 | 3
+
+## Blockquotes
+
+> Blockquotes are very handy in email to emulate reply text.
+> This line is a part of the same quote
+
+Quote Break
+
+> This is a very long like that will still be quoted properly when it wraps. And also **Markdown** can be put into _blockquote_ as well. This is very nice to highlight text within text too
+
+## Inline HTML
+
+<dl>
+   <dt> Heading sort </dt>
+   <dd> raw HTML can be made in your Markdown, and it usually works really well </dd>
+   
+   <dt> Markdown in HTML </dt>
+   <dd> Does *not* work **very** well. Use HTML <em>tags</em></dd>
+</dl>
+   
+## Horizontal Rule
+
+3 or more...
+---
+Hyphens
+***
+Asterisk
+___
+underscores
