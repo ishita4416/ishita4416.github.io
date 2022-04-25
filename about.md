@@ -12,5 +12,5 @@ Hey there! I am currently a sophomore doing Computer Engineering in Thapar Insti
 
 ### Contact me
 
-[email](mailto:ishitanandwani@gmail.com)
+[Email](mailto:ishitanandwani@gmail.com)  
 [LinkedIn](https://www.linkedin.com/in/ishita-nandwani-9655161b9/)
