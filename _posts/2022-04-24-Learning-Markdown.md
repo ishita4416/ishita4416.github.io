@@ -35,8 +35,8 @@ Strikethrough using tilde ~~two tildes~~
 
 1. Just number and list item
 2. another item etc
-..* Unordered sub-list
-..1. Ordered sub-list
+  * Unordered sub-list
+  1. Ordered sub-list
 4. and different numbers will still give the reqd list
 
    Properly indented paragraphs within list items using a blank line and leading spaces to align the raw markdown
@@ -50,7 +50,7 @@ Strikethrough using tilde ~~two tildes~~
 
 ## Links
 
-[inline-style link](https://www.google.com)
+[inline-style link](https://www.google.com)  
 [inline-style link with title](https://www.google.com "Google's Homepage")
 
 ## Images
@@ -86,7 +86,7 @@ words can also be used instead of numbers[^note]
 [^1]: Reference used  
 [^2]: Every new line should be prefixed with 2 spaces  
   this allows for a footnote to have multiple lines  
-[^note]: Named footnotes begin with numbers too instead of text but allow easier identification and linking
+[^note]: Named footnotes begin with numbers too instead of text but allow easier identification and linking, these type of footnotes don't work with github pages I suppose
 
 ## Tables
 
@@ -95,6 +95,7 @@ words can also be used instead of numbers[^note]
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 | 
+
 
 Markdown | Less | Pretty  
 --- | --- | ---  
@@ -122,10 +123,11 @@ Quote Break
    
 ## Horizontal Rule
 
-3 or more...
+These don't seem to be showing in github hosted pages either and essentially the usage of 3 hyphens is supposed to form a line, but it is underlining the above mentioned text instead, to avoid this, insert a line between the Hyphens and the text
+
 ---
-Hyphens
+Hyphens 
 ***
-Asterisk
+Asterisk  
 ___
-underscores
+underscores  
