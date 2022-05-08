@@ -43,4 +43,6 @@ followed the writeup: [this](https://ctftime.org/writeup/26973)
 
 found a really cool site that pretty much uses all the tools in one place for image analysis: [this](https://aperisolve.fr/96a7f666c0bf82891135e98c8c2e5bea)  
 
-the text in the license looks off to the trained eye, passing it through 
+the text in the license looks off to the trained eye, passing it through a base64 decoder gives the flag  
+
+> Base64 encoding schemes are used when there is a need to encode binary data that needs to be stored and transferred over media that are designed to deal with ASCII
