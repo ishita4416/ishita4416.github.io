@@ -31,7 +31,7 @@ and enter that in the prompt as given by the python script
 > wget command is used to retrieve content from web servers
 > -d taken in the python command, as per usage defined by the script  
 
-### Wave a Flag:  
+### 4. Wave a Flag:  
 
 ``` wget https://mercury.picoctf.net/static/cfea736820f329083dab9558c3932ada/warm  
     chmod +x warm  
@@ -42,7 +42,7 @@ and enter that in the prompt as given by the python script
 > -h passed because of the promt as given by the executable file  
 
 
-### information:  *forensics*  
+### 5. information:  *forensics*  
 
 metadata of the jpg file to be seen  
 followed the writeup: [this](https://ctftime.org/writeup/26973)  
