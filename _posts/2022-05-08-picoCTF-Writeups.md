@@ -21,11 +21,12 @@ pass the given text through any ROT13 decoders
 
 ### 3. Python Wrangling:  
 
-``` wget https://mercury.picoctf.net/static/b351a89e0bc6745b00716849105f87c6/ende.py
-    python3 ende.py -d flag.txt.en
+```
+wget https://mercury.picoctf.net/static/b351a89e0bc6745b00716849105f87c6/ende.py
+python3 ende.py -d flag.txt.en
 ```
 
-``` cat pw.txt ```
+``` cat pw.txt ```  
 and enter that in the prompt as given by the python script
 
 > wget command is used to retrieve content from web servers
@@ -33,11 +34,12 @@ and enter that in the prompt as given by the python script
 
 ### 4. Wave a Flag:  
 
-``` wget https://mercury.picoctf.net/static/cfea736820f329083dab9558c3932ada/warm  
-    chmod +x warm  
-    ./warm  
-    ./warm -h
-```
+``` 
+wget https://mercury.picoctf.net/static/cfea736820f329083dab9558c3932ada/warm  
+chmod +x warm  
+./warm  
+./warm -h
+```  
 
 > -h passed because of the promt as given by the executable file  
 
