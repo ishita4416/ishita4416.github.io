@@ -1,0 +1,46 @@
+## picoCTF writeups- Practice
+
+---
+
+### 1. Obedient Cat:  
+
+```cat flag```
+the flag is in the direct output  
+
+### 2. Mod 26:  *Cryptography*  
+
+pass the given text through any ROT13 decoders  
+
+> ROT13 is a special case of Caeser Cipher, where the string is rotated by 13 positions. Since, the number of rotations are known, it is more easily break-able than even Caeser Cipher, and hence of no practical usage.  
+
+### 3. Python Wrangling:  
+
+``` wget https://mercury.picoctf.net/static/b351a89e0bc6745b00716849105f87c6/ende.py
+    python3 ende.py -d flag.txt.en
+```
+
+``` cat pw.txt ```
+and enter that in the prompt as given by the python script
+
+> wget command is used to retrieve content from web servers
+> -d taken in the python command, as per usage defined by the script  
+
+### Wave a Flag:  
+
+``` wget https://mercury.picoctf.net/static/cfea736820f329083dab9558c3932ada/warm  
+    chmod +x warm  
+    ./warm  
+    ./warm -h
+```
+
+> -h passed because of the promt as given by the executable file  
+
+
+### information:  *forensics*  
+
+metadata of the jpg file to be seen  
+followed the writeup: [this](https://ctftime.org/writeup/26973)  
+
+found a really cool site that pretty much uses all the tools in one place for image analysis: [this](https://aperisolve.fr/96a7f666c0bf82891135e98c8c2e5bea)  
+
+the text in the license looks off to the trained eye, passing it through 
