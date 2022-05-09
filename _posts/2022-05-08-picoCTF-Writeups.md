@@ -13,11 +13,15 @@ A blog consisting of writeups for the practice section on picoCTF, with the nece
 ```cat flag```
 the flag is in the direct output  
 
+---
+
 ### 2. Mod 26:  *Cryptography*  
 
 pass the given text through any ROT13 decoders  
 
 > ROT13 is a special case of Caeser Cipher, where the string is rotated by 13 positions. Since, the number of rotations are known, it is more easily break-able than even Caeser Cipher, and hence of no practical usage.  
+
+---
 
 ### 3. Python Wrangling:  
 
@@ -32,6 +36,8 @@ and enter that in the prompt as given by the python script
 > wget command is used to retrieve content from web servers
 > -d taken in the python command, as per usage defined by the script  
 
+---
+
 ### 4. Wave a Flag:  
 
 ``` 
@@ -43,6 +49,7 @@ chmod +x warm
 
 > -h passed because of the promt as given by the executable file  
 
+---
 
 ### 5. information:  *forensics*  
 
@@ -55,6 +62,7 @@ the text in the license looks off to the trained eye, passing it through a base6
 
 > Base64 encoding schemes are used when there is a need to encode binary data that needs to be stored and transferred over media that are designed to deal with ASCII
 
+---
 
 ### 6. nice netcat:   
 
@@ -73,8 +81,9 @@ Use the given url and port in the format as previous question. For documentation
 
 enter the given hexadecimal as x70 in [this](https://www.rapidtables.com/convert/number/hex-to-ascii.html) converter to convert it to the corresponding ascii value  
 
+---
 
-### 7. Transformation:  * reverse engineering *  
+### 7. Transformation:  *reverse engineering*  
 
 The file enc, that has been given, on running a cat command with it, we get a string of seemingly chinese characters.  
 First approach was to try and translate it, but it doesn't make sense in even chinese translation, so this possibility is rejected.  
